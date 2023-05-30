@@ -29,7 +29,7 @@ body {
     animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
   }
   .welcome #welcome {
-    background-image: url("welcome1.jpg");
+    background-image: url("/images/welcome1.jpg");
     background-size: 250px 250px;
     background-repeat: no-repeat;
     position: absolute;
@@ -99,7 +99,7 @@ body {
     100% {
       top: 50%;
       /* background: #039be5; */
-      background-image: url("logo.png");
+      background-image: url("/images/logo.png");
       background-size: 250px 250px;
     }
   }
