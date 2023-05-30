@@ -1,14 +1,20 @@
 import React from 'react'
 import "./navbar.css"
+import Logo from "../images/logo.png"
 const Navbar = () => {
   return (
     <div>
       <header className="header">
             <nav className="nav container">
                 <div className="nav__data">
+                <div className="logo">
+                <div className="logo_content">
+                <img src={Logo} alt="Codebird Logo" />
                     <a href="#" className="nav__logo">
                         <i className="ri-code-s-slash-line"></i> The CodeBird
                     </a>
+                    </div>
+                   </div>
     
                     <div className="nav__toggle" id="nav-toggle">
                         <i className="ri-menu-line nav__toggle-menu"></i>
@@ -194,7 +200,7 @@ const Navbar = () => {
                         {/* <!--=============== DROPDOWN 3 ===============--> */}
                         <li className="dropdown__item">                        
                             <div className="nav__link dropdown__button">
-                                Faqs <i className="ri-arrow-down-s-line dropdown__arrow"></i>
+                                FAQS <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                             </div>
 
                             <div className="dropdown__container">
