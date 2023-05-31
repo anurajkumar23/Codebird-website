@@ -3,6 +3,7 @@ import {useState}  from 'react';
 import "./navbar.css";
 import Logo from "../images/logo.png";
 import "./assets/scss/styles.scss";
+
 import { Icon } from '@iconify/react';
 
 
@@ -28,13 +29,8 @@ const Navbar = () => {
                     </div>
                    </div>
                    <button class="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
-                        <i class="ri-menu-line nav__toggle-menu"></i>
-                        <i class="ri-close-line nav__toggle-close"></i>
+                   {isMenuVisible ? <i class="ri-menu-line nav__toggle-menu"></i> : <i class="ri-close-line nav__toggle-close"></i>}
                      </button>
-                   {/* <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-line nav__toggle-menu"></i>
-                        <i class="ri-close-line nav__toggle-close"></i>
-                    </div> */}
                 </div>
 
                 {/* <!--=============== NAV MENU ===============--> */}
