@@ -319,7 +319,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   .dropdown__icon {
     width: 60px;
     height: 60px;
-    background-color: var(--first-color-lighten);
+    background-color: rgba(111, 243, 10, 0.491);
     border-radius: 50%;
     display: grid;
     place-items: center;
