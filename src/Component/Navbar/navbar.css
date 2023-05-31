@@ -223,7 +223,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .dropdown__title {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: yellow;
 }
 .dropdown__list {
   row-gap: 0.25rem;
@@ -232,7 +232,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .dropdown__link {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
-  color: var(--text-color);
+  color: white;
   transition: color 0.3s;
 }
 .dropdown__link:hover {
