@@ -56,11 +56,14 @@ const Navbar = () => {
                                         <span className="dropdown__title">Codebird Team</span>
     
                                         <ul className="dropdown__list">
-                                            <li>
-                                                <a href="#" className="dropdown__link">Current Team</a>
+                                        <li>
+                                                <a href="#" className="dropdown__link">Our Story</a>
                                             </li>
                                             <li>
-                                                <a href="#" className="dropdown__link">Founding Team</a>
+                                                <a href="#" className="dropdown__link">Our Founders</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="dropdown__link">core committee</a>
                                             </li>
                                             <li>
                                                 <a href="#" className="dropdown__link">Website creating team</a>
@@ -77,10 +80,10 @@ const Navbar = () => {
     
                                         <ul className="dropdown__list">
                                             <li>
-                                                <a href="#" className="dropdown__link">Web development</a>
+                                                <a href="#" className="dropdown__link">Web </a>
                                             </li>
                                             <li>
-                                                <a href="#" className="dropdown__link">App development</a>
+                                                <a href="#" className="dropdown__link">App </a>
                                             </li>
                                             <li>
                                                 <a href="#" className="dropdown__link">CP/DSA</a>
@@ -96,7 +99,7 @@ const Navbar = () => {
                                         <Icon icon="ri:book-mark-line" />
                                         </div>
     
-                                        <span className="dropdown__title">Careers Domain</span>
+                                        <span className="dropdown__title">Other Domain</span>
                                         
     
                                         <ul className="dropdown__list">
@@ -115,23 +118,7 @@ const Navbar = () => {
                                         </ul>
                                     </div>
     
-                                    <div className="dropdown__group">
-                                        <div className="dropdown__icon">
-                                        <Icon icon="ri:file-paper-2-line" />
-                                        </div>
-    
-                                        <span className="dropdown__title">Certifications</span>
-    
-                                        <ul className="dropdown__list">
-                                            <li>
-                                                <a href="#" className="dropdown__link">CodeBird Member certificates</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">CodeBird others certificates</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </li>
@@ -139,69 +126,9 @@ const Navbar = () => {
                         {/* <!--=============== DROPDOWN 2 ===============--> */}
                         <li className="dropdown__item">
                             <div className="nav__link dropdown__button">
-                                Resources <Icon icon="ri:arrow-down-s-line" />
+                               Advisor 
                             </div>
 
-                            <div className="dropdown__container">
-                                <div className="dropdown__content">
-                                    <div className="dropdown__group">
-                                        <div className="dropdown__icon">
-                                        <Icon icon="mdi:teacher" />
-                                        </div>
-    
-                                        <span className="dropdown__title">Adviser</span>
-    
-                                        <ul className="dropdown__list">
-                                            <li>
-                                                <a href="#" className="dropdown__link">LinkedIn</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Facebook</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div className="dropdown__group">
-                                        <div className="dropdown__icon">
-                                        <Icon icon="guidance:study-room" />
-                                        </div>
-    
-                                        <span className="dropdown__title">Study Material</span>
-    
-                                        <ul className="dropdown__list">
-                                            <li>
-                                                <a href="#" className="dropdown__link"> Notes  </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Documentation</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Component </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div className="dropdown__group">
-                                        <div className="dropdown__icon">
-                                        <Icon icon="ri:apps-2-line" />
-                                        </div>
-    
-                                        <span className="dropdown__title">Others</span>
-    
-                                        <ul className="dropdown__list">
-                                            <li>
-                                                <a href="#" className="dropdown__link">Recent blogs</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Tutorial videos</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Webinar</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                         </li>
 
                         <li>
@@ -213,47 +140,12 @@ const Navbar = () => {
                             <div className="nav__link dropdown__button">
                                 FAQS <Icon icon="ri:arrow-down-s-line dropdown__arrow"/> 
                             </div>
-
-                            <div className="dropdown__container">
-                                <div className="dropdown__content">
-                                    <div className="dropdown__group">
-                                        <div className="dropdown__icon">
-                                        <Icon icon="ri:community-line" />
-                                        </div>
-    
-                                        <span className="dropdown__title">About us</span>
-    
-                                        <ul className="dropdown__list">
-                                            <li>
-                                                <a href="#" className="dropdown__link">About us</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Support</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Contact us</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div className="dropdown__group">
-                                        <div className="dropdown__icon">
-                                        <Icon icon="ri:shield-line" />
-                                        </div>
-    
-                                        <span className="dropdown__title">Safety and quality</span>
-    
-                                        <ul className="dropdown__list">
-                                            <li>
-                                                <a href="#" className="dropdown__link">Cookie settings</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="dropdown__link">Privacy Policy</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        </li>
+                        <li className="dropdown__item">
+                            <div className="nav__link dropdown__button">
+                               Register
                             </div>
+
                         </li>
                     </ul>
                 </div>
