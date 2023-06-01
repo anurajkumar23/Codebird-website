@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/images/gifimage6.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo
+{
+    float: left;
+    background-image: url("/images/logo.png");
+    background-size: cover;
+    width: 4em;
+    height: 4em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.box{
+    width: 42em;
+    height: 36em;
+    /* border: 2px solid red; */
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20em;
+    margin-top: 4em;
+}
+.box h1{
+    color: aliceblue;
+    text-align: center;
+}
+.box input{
+    border: none;
+    border-bottom: 2px solid white;
+}
+.box #male,#fmale{
+    margin-left: 4em;
+}
+.box label{
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.box #name,select{
+    width: 19em;
+    height: 3em;
+    display: inline-block;
+    margin-top: 3em;
+    margin-left: 4em;
+    color: whitesmoke;
+    padding: 2px;
+    background: transparent;
+}
+.box #email,#contact{
+    width: 19em;
+    height: 3em;
+    display: inline-block;
+    margin-top: 3em;
+    margin-left: 4em;
+    color: white;
+    padding: 2px;
+    background: transparent;
+}
+.box #college,#roll{
+    width: 19em;
+    height: 3em;
+    display: inline-block;
+    margin-top: 3em;
+    margin-left: 4em;
+    color: white;
+    padding: 2px;
+    background: transparent;
+}
+.box #dept{
+    width: 19em;
+    height: 3em;
+    display: inline-block;
+    margin-top: 3em;
+    margin-left: 4em;
+    color: white;
+    padding: 2px;
+    background: transparent;
+}
+.box #state{
+    width: 19em;
+    height: 3em;
+    display: inline-block;
+    margin-top: 3em;
+    margin-left: 4em;
+    color: white;
+    padding: 2px;
+    background: transparent;
+}
+.box #pass,#cpass{
+    width: 19em;
+    height: 3em;
+    display: inline-block;
+    margin-top: 3em;
+    margin-left: 4em;
+    color: white;
+    padding: 2px;
+    background: transparent;
+}
+.box button{
+    width: 13em;
+    height: 3em;
+    margin-top: 3em;
+    margin-left: 4em;
+    background: rgb(69, 101, 247);
+}
+.box button:hover{
+font-weight: bold;
+cursor:pointer;
+box-shadow: 0 0 10px 0 #5f68ee inset, 0 0 20px 2px #5feec1;
+}
+.box  #login{
+    float:right;
+    margin: 2em;
+    font-size: 140%;
+    text-decoration: none;
+    color: rgb(90, 194, 239);
+}
